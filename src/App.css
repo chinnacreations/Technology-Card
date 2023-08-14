@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.bg-con {
+  background-color: #f4faff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.bg-list-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.card-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .card-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 32px;
+  }
+  .desc {
+    font-size: 24px;
+  }
+}
+
+.heading {
+  font-size: 54px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #171f46;
+}
+.desc {
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #64748b;
+  text-align: center;
+}
